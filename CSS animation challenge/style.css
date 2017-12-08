@@ -1,0 +1,29 @@
+body {
+  background-color:mistyrose;
+  margin: 0;
+  font-size: 4rem;
+  font-family: didot;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+div {
+  cursor: crosshair;
+  margin: 1rem
+}
+.fade {
+  color: #001F3F;
+  transition: all 1s ease-out;
+  animation: pulse 5s infinite;
+}
+
+.fade:hover {
+  color: white;
+  animation-play-state: running;
+}
